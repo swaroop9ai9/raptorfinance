@@ -1,12 +1,15 @@
 # Yahoo Finance Python API
 
-# This API Supports to retrieve data especially works for NSE/BSE stocks.
-# Also can Retrieve Intraday 1min gradualar Data.
+* This API Supports to retrieve data especially works for NSE/BSE stocks.
+* Also can Retrieve Intraday 1min gradualar Data.
+
+# Python Installation:
+* Command for installation: 'pip3 install raptorfinance'
 
 ## Usage
 
 This command returns a dataframe which can be further modified to add new columns , exported to excel etc
-
+from raptorfinance import RaptorFinance
 ``` python
 hdfc = RaptorFinance('HDFC.NS', result_range='1mo', interval='15m', dropna='True').result
 ```
