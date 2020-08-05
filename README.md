@@ -9,7 +9,7 @@
 ## Usage
 
 This command returns a dataframe which can be further modified to add new columns , exported to excel etc
-from raptorfinance import RaptorFinance
+* from raptorfinance import RaptorFinance
 ``` python
 hdfc = RaptorFinance('HDFC.NS', result_range='1mo', interval='15m', dropna='True').result
 ```
