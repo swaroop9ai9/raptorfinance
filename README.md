@@ -19,7 +19,7 @@ hdfc = RaptorFinance('HDFC.NS', result_range='1mo', interval='15m', dropna='True
 
 ``` bash
 git clone https://github.com/swaroop9ai9/Fintech/raptor_finance_api.git
-cd raptor_finance_api
+cd raptor finance
 python setup.py install
 ```
 
