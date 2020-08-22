@@ -15,7 +15,7 @@ setuptools.setup(
     description="finance api especially for Indian NSE/BSE Stock Data",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/swaroop9ai9/Fintech/raptor_finance_api",
+    url="https://github.com/swaroop9ai9/raptorfinance",
     packages=setuptools.find_packages(),
     install_requires=INSTALL_REQUIRES,
     classifiers=[
