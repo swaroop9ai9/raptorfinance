@@ -1,4 +1,4 @@
-name = "raptor_finance_api"
+name = "raptorfinance"
 
 
 import pandas as pd
